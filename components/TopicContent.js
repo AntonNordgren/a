@@ -9,12 +9,12 @@ export default function TopicContent({ data }) {
 
   return (
     <Container fluid>
+      <Row>
       {
         data.map(shoe => (
-          <Row>
-            <Col className="p-4">
-              <Card style={{ borderRadius: "2px", boxShadow: "gray 7px 7px 5px" }}>
-                <Card.Img variant="top" style={{ margin: "auto", padding: "0px" }} src={shoe.img} />
+            <Col className="p-2" sm={12} md={6} lg={4}>
+              <Card style={{ borderRadius: "0px" }}>
+                <Card.Img variant="top" style={{ margin: "auto", padding: "0px", borderRadius: "0px" }} src={shoe.img} />
                 <Card.Body>
                   <Card.Title><h3>{shoe.name}</h3></Card.Title>
                   <Card.Text>
@@ -24,9 +24,9 @@ export default function TopicContent({ data }) {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
         ))
       }
+      </Row>
     </Container>
   )
 }

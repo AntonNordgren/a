@@ -6,10 +6,28 @@ import Link from 'next/link'
 
 export default function Navigation() {
 
-  const style = {
-    borderRadius: "0px",
-    border: "none"
-  }
+  const navs = [
+    {
+      name: "Finskor",
+      link: "/produkter/finskor"
+    },
+    {
+      name: "Boots",
+      link: "/produkter/boots"
+    },
+    {
+      name: "Sneakers",
+      link: "/produkter/sneakers"
+    },
+  ]
+
+  const linkStyle = {
+
+    marginRight: "10px",
+    color: "#8a8383",
+    textDecoration: "none"
+
+}
 
   return (
     <Navbar bg="dark" variant="dark">
@@ -18,21 +36,13 @@ export default function Navigation() {
           <img src="/testLogo.png" width="50px" height="50px" />
         </Link>
       </Navbar.Brand>
-
-      <Link href="/produkter/finskor">
-        <a style={{marginRight: "10px"}}>Finskor</a>
-      </Link>
-
-      <Link href="/produkter/boots">
-        <a style={{marginRight: "10px"}}>Boots</a>
-      </Link>
-
-      <Link href="/produkter/sneakers">
-        <a style={{marginRight: "10px"}}>Sneakers</a>
-      </Link>
-
-
-
+      {
+        navs.map(nav => (
+          <Link href={nav.link}>
+            <a className="navigation-link">{nav.name}</a>
+          </Link>
+        ))
+      }
     </Navbar>
   )
 }

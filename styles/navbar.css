@@ -20,3 +20,14 @@
   background-color: transparent;
   border: none;
 } */
+
+.navigation-link {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.navigation-link:hover {
+  color: #ffffff5d;
+}

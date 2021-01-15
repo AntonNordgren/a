@@ -18,28 +18,21 @@ export default function Navigation() {
           <img src="/testLogo.png" width="50px" height="50px" />
         </Link>
       </Navbar.Brand>
-      <Dropdown>
-        <Dropdown.Toggle className="dropdown-button">
-          Produkter
-        </Dropdown.Toggle>
-        <Dropdown.Menu style={style}>
-          <Dropdown.Item>
-            <Link href="/produkter/tv">
-              <a>TV</a>
-            </Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/produkter/godis">
-              <a>Godis</a>
-            </Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/produkter/skor">
-              <a>Skor</a>
-            </Link>
-          </Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
+
+      <Link href="/produkter/finskor">
+        <a style={{marginRight: "10px"}}>Finskor</a>
+      </Link>
+
+      <Link href="/produkter/boots">
+        <a style={{marginRight: "10px"}}>Boots</a>
+      </Link>
+
+      <Link href="/produkter/sneakers">
+        <a style={{marginRight: "10px"}}>Sneakers</a>
+      </Link>
+
+
+
     </Navbar>
   )
 }

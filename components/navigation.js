@@ -33,7 +33,7 @@ export default function Navigation() {
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand>
         <Link href="/">
-          <img src="/testLogo.png" width="50px" height="50px" />
+          <img src="/navlogo.png" width="90px" height="50px" />
         </Link>
       </Navbar.Brand>
       {

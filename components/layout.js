@@ -9,11 +9,8 @@ export default function Layout({ children }) {
     display: "grid",
     gridTemplateRows: "auto 1fr auto",
     minHeight: "calc(100vh - 155px)",
-    marginTop: "75px"
-  }
-
-  const contentStyle = {
-    backgroundColor: "#f2f3f4"
+    marginTop: "75px",
+    backgroundColor: "white"
   }
 
   return (

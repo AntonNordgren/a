@@ -7,13 +7,13 @@ import Col from 'react-bootstrap/Col'
 export default function TopicContent({ data }) {
 
   return (
-    <Container style={{marginTop: "75px"}}>
+    <Container>
       <Row>
         {
           data.map(shoe => (
             <Col className="p-2" sm={6} md={4} lg={3}>
               <Card style={{ borderRadius: "0px", border: "none", boxShadow: "gray 5px 5px 10px", borderRadius: "0px" }}>
-                <Card.Img variant="top" style={{ margin: "auto", padding: "0px", borderRadius: "0px" }} src={shoe.img} />
+                <Card.Img variant="top" style={{ margin: "auto", padding: "0px", borderRadius: "0px", width: "100%", height: "15vw", objectFit: "cover" }} src={shoe.img} />
                 <Card.Body>
                   <Card.Title><h3>{shoe.name}</h3></Card.Title>
                   <Card.Text>

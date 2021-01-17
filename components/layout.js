@@ -8,7 +8,8 @@ export default function Layout({ children }) {
   const pageStyle = {
     display: "grid",
     gridTemplateRows: "auto 1fr auto",
-    minHeight: "100vh",
+    minHeight: "calc(100vh - 155px)",
+    marginTop: "75px"
   }
 
   const contentStyle = {
@@ -19,9 +20,7 @@ export default function Layout({ children }) {
     <div>
       <Navigation />
       <Container style={pageStyle}>
-        <div style={pageStyle}>
-          {children}
-        </div>
+        {children}
       </Container>
       <Footer />
     </div>

@@ -1,12 +1,14 @@
 import Navigation from './navigation'
 import Footer from './footer'
 
+import Container from 'react-bootstrap/Container'
+
 export default function Layout({ children }) {
 
   const pageStyle = {
     display: "grid",
     gridTemplateRows: "auto 1fr auto",
-    minHeight: "100vh"
+    minHeight: "100vh",
   }
 
   const contentStyle = {
@@ -14,11 +16,13 @@ export default function Layout({ children }) {
   }
 
   return (
-    <div style={pageStyle}>
+    <div>
       <Navigation />
-        <div style={contentStyle}>
+      <Container style={pageStyle}>
+        <div style={pageStyle}>
           {children}
         </div>
+      </Container>
       <Footer />
     </div>
   )

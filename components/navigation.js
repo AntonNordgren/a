@@ -30,7 +30,7 @@ export default function Navigation() {
 }
 
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" fixed="top">
       <Navbar.Brand>
         <Link href="/">
           <img src="/navlogo.png" width="90px" height="50px" />

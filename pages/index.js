@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <Container fluid>
 
-      <h2>Leter du efter nya herrskor?</h2>
+      <h2>Letar du efter nya herrskor?</h2>
       <p>På denna episka sida kan du få inspiration från några av Sveriges grymmaste skoaffärer!</p>
 
       {/* <Carousel>

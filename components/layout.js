@@ -10,7 +10,6 @@ export default function Layout({ children }) {
     gridTemplateRows: "auto 1fr auto",
     minHeight: "calc(100vh - 155px)",
     marginTop: "75px",
-    backgroundColor: "white"
   }
 
   return (

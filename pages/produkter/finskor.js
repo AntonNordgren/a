@@ -22,8 +22,8 @@ export default function Finskor() {
   ]
   return (
     <div>
-      <h1 className="m-2" style={{textAlign: "center"}}>Gasolkylskåp - Best i Test</h1>
       <TopicContent data={shoeList} />
+      {/* <h1 className="m-2" style={{textAlign: "center"}}>Gasolkylskåp - Best i Test</h1>
       <Card className="mb-2" style={{ borderRadius: "0px", border: "none", borderRadius: "0px" }}>
         <Container fluid className="p-4">
           <h2>Gasolkylskåp</h2>
@@ -112,7 +112,7 @@ export default function Finskor() {
             Hållbart material – Tack vare att de är tillverkade i freonfria material påverkar de inte miljön negativt. Således kan du köpa det med gott samvete.
         </p>
         </Container>
-      </Card>
+      </Card> */}
     </div>
   )
 }

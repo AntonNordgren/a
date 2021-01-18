@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import Table from 'react-bootstrap/Table'
 
 import TopicContent from '../../components/TopicContent'
 

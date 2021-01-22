@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <Container>
       <div style={{textAlign: "center", marginTop: "20px"}}>
-        <img src="tg_stor_svart.png" width="500px" />
+        <img src="tg_stor_svart.png" style={{width: "100%"}}/>
         <h1 style={{marginTop: "20px"}}>Under konstruktion</h1>
       </div>
     </Container>

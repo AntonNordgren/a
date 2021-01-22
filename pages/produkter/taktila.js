@@ -13,7 +13,17 @@ export default function Taktila() {
     {
       name: 'Taktila',
       img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
-      text: ''
+      text: 'Taktila brytare'
+    },
+    {
+      name: 'Taktila',
+      img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
+      text: 'Taktila brytare'
+    },
+    {
+      name: 'Taktila',
+      img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
+      text: 'Taktila brytare'
     },
 
 

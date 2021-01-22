@@ -11,17 +11,17 @@ export default function Sneakers() {
     {
       name: 'Klickiga',
       img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Låter coolt'
+      text: 'Klickiga brytare'
     },
     {
       name: 'Klickiga',
       img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Låte coolt'
+      text: 'Klickiga brytare'
     },
     {
       name: 'Klickiga',
       img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Låte coolt'
+      text: 'Klickiga brytare'
     },
   ]
   return (

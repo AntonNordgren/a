@@ -12,12 +12,12 @@ export default function Finskor() {
     {
       name: 'Linjära',
       img: 'https://www.lenovo.com/medias/GY40Y57708-01-500x400.png?context=bWFzdGVyfHJvb3R8MTE0NTYxfGltYWdlL3BuZ3xoMmEvaDg5LzExMDQ1MTIwNTA3OTM0LnBuZ3xlZDFkNmMyOTc3YTY5NzAxOWU0ZmM0NDZkMTAyZDQxNjdjNjUyZGUzNmZlNmRlNTc0MzVhM2I1YjBkOTE4M2I2',
-      text: 'Linjära brytare är awesome'
+      text: 'Linjära brytare'
     },
     {
       name: 'Linjära',
       img: 'https://www.lenovo.com/medias/GY40Y57708-01-500x400.png?context=bWFzdGVyfHJvb3R8MTE0NTYxfGltYWdlL3BuZ3xoMmEvaDg5LzExMDQ1MTIwNTA3OTM0LnBuZ3xlZDFkNmMyOTc3YTY5NzAxOWU0ZmM0NDZkMTAyZDQxNjdjNjUyZGUzNmZlNmRlNTc0MzVhM2I1YjBkOTE4M2I2',
-      text: 'Linjära brytare är awesome'
+      text: 'Linjära brytare'
     },
   ]
   return (

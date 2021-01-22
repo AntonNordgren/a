@@ -8,16 +8,16 @@ export default function Navigation() {
 
   const navs = [
     {
-      name: "Finskor",
-      link: "/produkter/finskor"
+      name: "Linjära",
+      link: "/produkter/linjara"
     },
     {
-      name: "Boots",
-      link: "/produkter/boots"
+      name: "Taktila",
+      link: "/produkter/taktila"
     },
     {
-      name: "Sneakers",
-      link: "/produkter/sneakers"
+      name: "Klickiga",
+      link: "/produkter/klickiga"
     },
   ]
 
@@ -33,7 +33,7 @@ export default function Navigation() {
     <Navbar bg="dark" variant="dark" fixed="top">
       <Navbar.Brand>
         <Link href="/">
-          <img src="/navlogo.png" width="90px" height="50px" />
+          <img src="/TG_logga.png" width="40px" />
         </Link>
       </Navbar.Brand>
       {

@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <Navbar className="p-0 m-0" style={style}>
       <div style={{width: "100%"}}>
-        <h6>Män i Skor</h6>
+        <img src="/tangent_vit.png" width="200px"></img>
       </div>
     </Navbar>
   )

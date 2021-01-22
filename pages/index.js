@@ -10,7 +10,10 @@ export default function Home() {
 
   return (
     <Container>
-      asjldkjaslkdlksjad
+      <div style={{textAlign: "center", marginTop: "20px"}}>
+        <img src="tg_stor_svart.png" width="500px" />
+        <h1 style={{marginTop: "20px"}}>Under konstruktion</h1>
+      </div>
     </Container>
   )
 }

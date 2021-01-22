@@ -9,14 +9,19 @@ import TopicContent from '../../components/TopicContent'
 export default function Sneakers() {
   const shoeList = [
     {
-      name: 'Sneakers',
-      img: 'https://chekich.com/i/l/000/0001856_chekich-ch017-bt-white-men-sneakers.jpeg',
-      text: 'Sneak around'
+      name: 'Klickiga',
+      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
+      text: 'Låter coolt'
     },
     {
-      name: 'Sneakers',
-      img: 'https://gearmoose.com/wp-content/uploads/2017/04/best-all-white-sneakers-for-men.jpg',
-      text: 'Sneak around'
+      name: 'Klickiga',
+      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
+      text: 'Låte coolt'
+    },
+    {
+      name: 'Klickiga',
+      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
+      text: 'Låte coolt'
     },
   ]
   return (

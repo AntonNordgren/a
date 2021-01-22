@@ -8,28 +8,30 @@ import Table from 'react-bootstrap/Table'
 import TopicContent from '../../components/TopicContent'
 
 export default function Taktila() {
-  const shoeList = [
+  // const shoeList = [
 
-    {
-      name: 'Taktila',
-      img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
-      text: 'Taktila brytare'
-    },
-    {
-      name: 'Taktila',
-      img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
-      text: 'Taktila brytare'
-    },
-    {
-      name: 'Taktila',
-      img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
-      text: 'Taktila brytare'
-    },
+  //   {
+  //     name: 'Taktila',
+  //     img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
+  //     text: 'Taktila brytare'
+  //   },
+  //   {
+  //     name: 'Taktila',
+  //     img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
+  //     text: 'Taktila brytare'
+  //   },
+  //   {
+  //     name: 'Taktila',
+  //     img: 'https://blog.bestbuy.ca/wp-content/uploads/2017/12/Mechanical-gaming-keyboards.jpg',
+  //     text: 'Taktila brytare'
+  //   },
 
 
-  ]
+  // ]
   return (
-    <TopicContent data={shoeList} />
+    <div></div>
+
+    // <TopicContent data={shoeList} />
   )
 }
 

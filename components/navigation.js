@@ -7,18 +7,18 @@ import Link from 'next/link'
 export default function Navigation() {
 
   const navs = [
-    {
-      name: "Linjära",
-      link: "/produkter/linjara"
-    },
-    {
-      name: "Taktila",
-      link: "/produkter/taktila"
-    },
-    {
-      name: "Klickiga",
-      link: "/produkter/klickiga"
-    },
+    // {
+    //   name: "Linjära",
+    //   link: "/produkter/linjara"
+    // },
+    // {
+    //   name: "Taktila",
+    //   link: "/produkter/taktila"
+    // },
+    // {
+    //   name: "Klickiga",
+    //   link: "/produkter/klickiga"
+    // },
   ]
 
   const linkStyle = {

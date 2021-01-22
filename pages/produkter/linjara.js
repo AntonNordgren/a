@@ -8,21 +8,21 @@ import Button from 'react-bootstrap/Button'
 import TopicContent from '../../components/TopicContent'
 
 export default function Finskor() {
-  const shoeList = [
-    {
-      name: 'Linjära',
-      img: 'https://www.lenovo.com/medias/GY40Y57708-01-500x400.png?context=bWFzdGVyfHJvb3R8MTE0NTYxfGltYWdlL3BuZ3xoMmEvaDg5LzExMDQ1MTIwNTA3OTM0LnBuZ3xlZDFkNmMyOTc3YTY5NzAxOWU0ZmM0NDZkMTAyZDQxNjdjNjUyZGUzNmZlNmRlNTc0MzVhM2I1YjBkOTE4M2I2',
-      text: 'Linjära brytare'
-    },
-    {
-      name: 'Linjära',
-      img: 'https://www.lenovo.com/medias/GY40Y57708-01-500x400.png?context=bWFzdGVyfHJvb3R8MTE0NTYxfGltYWdlL3BuZ3xoMmEvaDg5LzExMDQ1MTIwNTA3OTM0LnBuZ3xlZDFkNmMyOTc3YTY5NzAxOWU0ZmM0NDZkMTAyZDQxNjdjNjUyZGUzNmZlNmRlNTc0MzVhM2I1YjBkOTE4M2I2',
-      text: 'Linjära brytare'
-    },
-  ]
+  // const shoeList = [
+  //   {
+  //     name: 'Linjära',
+  //     img: 'https://www.lenovo.com/medias/GY40Y57708-01-500x400.png?context=bWFzdGVyfHJvb3R8MTE0NTYxfGltYWdlL3BuZ3xoMmEvaDg5LzExMDQ1MTIwNTA3OTM0LnBuZ3xlZDFkNmMyOTc3YTY5NzAxOWU0ZmM0NDZkMTAyZDQxNjdjNjUyZGUzNmZlNmRlNTc0MzVhM2I1YjBkOTE4M2I2',
+  //     text: 'Linjära brytare'
+  //   },
+  //   {
+  //     name: 'Linjära',
+  //     img: 'https://www.lenovo.com/medias/GY40Y57708-01-500x400.png?context=bWFzdGVyfHJvb3R8MTE0NTYxfGltYWdlL3BuZ3xoMmEvaDg5LzExMDQ1MTIwNTA3OTM0LnBuZ3xlZDFkNmMyOTc3YTY5NzAxOWU0ZmM0NDZkMTAyZDQxNjdjNjUyZGUzNmZlNmRlNTc0MzVhM2I1YjBkOTE4M2I2',
+  //     text: 'Linjära brytare'
+  //   },
+  // ]
   return (
     <div>
-      <TopicContent data={shoeList} />
+      {/* <TopicContent data={shoeList} /> */}
       {/* <h1 className="m-2" style={{textAlign: "center"}}>Gasolkylskåp - Best i Test</h1>
       <Card className="mb-2" style={{ borderRadius: "0px", border: "none", borderRadius: "0px" }}>
         <Container fluid className="p-4">

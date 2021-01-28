@@ -2,7 +2,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 export default function Footer() {
   const style = {
-    backgroundColor: "#343a40",
+    backgroundColor: "#1f2833",
     height: "80px",
     color: "#ffffff5d",
     textAlign: "center"
@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <Navbar className="p-0 m-0" style={style}>
       <div style={{width: "100%"}}>
-        <img src="/tangent_vit.png" width="200px"></img>
+        <img src="/turkos_logo.png" width="250px"></img>
       </div>
     </Navbar>
   )

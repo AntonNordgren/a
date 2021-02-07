@@ -1,8 +1,33 @@
+import { useState } from 'react'
+
 import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 
 import Link from 'next/link'
 
 export default function Navigation() {
+
+  const [show, setShow] = useState(false)
+
+  const showDropdown = e => {
+    if(window.innerWidth >= 763) {
+      setShow(!show);
+    }
+  }
+
+  const hideDropdown = e => {
+    if(window.innerWidth >= 763) {
+      setShow(false);
+    }
+  }
+
+  const toogleDropdown = e => {
+    if(window.innerWidth <= 763) {
+      if(show === false) setShow(!show)
+      else setShow(false)
+    }
+  }
 
   const navs = [
     {
@@ -42,7 +67,6 @@ export default function Navigation() {
   ]
 
   const navLinks = (
-
     navs.map(nav => {
       if (!nav.hasOwnProperty('dropdown')) {
         return (
@@ -53,38 +77,24 @@ export default function Navigation() {
       }
 
       return (
-        <div className="dropdown-nav" style={{ height: "53px" }}>
-          <div>
-            <a style={{ position: "relative", top: "8px" }} className="navigation-link">Mekaniska</a>
-            <div className="dropdown-menu"
-              style={{ position: "absolute", width: "150px", height: "150px", top: "60px", backgroundColor: "#1f2833", color: "white", borderRadius: "0px", border: "none" }}>
-              <div style={{ height: "10px" }} />
-              {
-                nav.dropdown.map(dropdownItem => (
-                  <div style={{ textAlign: "center", marginTop: "5px", marginBottom: "5px" }}>
-                    <Link href={dropdownItem.link}>
-                      <a className="navigation-link">{dropdownItem.name}</a>
-                    </Link>
-                  </div>
-                ))
-              }
-            </div>
-          </div>
-        </div>
+        <NavDropdown id="navbar-dropdown" title="Mekaniska" style={{ fontSize: "1.5em" }} show={ show } onClick={ toogleDropdown } onMouseEnter={ showDropdown } onMouseLeave={ hideDropdown }>
+          { nav.dropdown.map(dropdownItem => <NavDropdown.Item as="Link" href={dropdownItem.link}>{dropdownItem.name}</NavDropdown.Item> ) }
+        </NavDropdown>
       )
-
-    }
-    )
-)
+    })
+  )
 
   return (
-    <Navbar style={{padding: "0px", backgroundColor: "#1f2833"}} fixed="top">
+    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{ padding: "5px" }}>
       <Navbar.Brand className="navbrand">
         <Link href="/">
           <img className="navbrand" src="/TG_turkos.png" width="50px" />
         </Link>
       </Navbar.Brand>
-      { navLinks }
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">{navLinks}</Nav>
+      </Navbar.Collapse>
     </Navbar>
   )
 }

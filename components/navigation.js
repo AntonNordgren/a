@@ -78,7 +78,7 @@ export default function Navigation() {
 
       return (
         <NavDropdown id="navbar-dropdown" title="Mekaniska" style={{ fontSize: "1.5em" }} show={ show } onClick={ toogleDropdown } onMouseEnter={ showDropdown } onMouseLeave={ hideDropdown }>
-          { nav.dropdown.map(dropdownItem => <NavDropdown.Item as="Link" href={dropdownItem.link}>{dropdownItem.name}</NavDropdown.Item> ) }
+          { nav.dropdown.map(dropdownItem => <NavDropdown.Item href={dropdownItem.link}>{dropdownItem.name}</NavDropdown.Item> ) }
         </NavDropdown>
       )
     })

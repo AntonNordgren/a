@@ -5,24 +5,24 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-import TopicContent from '../../components/TopicContent'
+import TopicContent from '../components/TopicContent'
 
 export default function Sneakers() {
   const shoeList = [
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Bluetooth',
+      img: 'https://cdn.shopify.com/s/files/1/0200/1582/products/k380-multi-device-bluetooth-keyboard_1024x1024.png?v=1576114726',
+      text: 'Bluetooth'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Bluetooth',
+      img: 'https://cdn.shopify.com/s/files/1/0200/1582/products/k380-multi-device-bluetooth-keyboard_1024x1024.png?v=1576114726',
+      text: 'Bluetooth'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Bluetooth',
+      img: 'https://cdn.shopify.com/s/files/1/0200/1582/products/k380-multi-device-bluetooth-keyboard_1024x1024.png?v=1576114726',
+      text: 'Bluetooth'
     },
   ]
   return (

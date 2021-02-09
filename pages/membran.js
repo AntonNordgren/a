@@ -5,24 +5,24 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-import TopicContent from '../../components/TopicContent'
+import TopicContent from '../components/TopicContent'
 
 export default function Sneakers() {
   const shoeList = [
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Membran',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/811YM2Go9GL._AC_SL1500_.jpg',
+      text: 'Membran'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Membran',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/811YM2Go9GL._AC_SL1500_.jpg',
+      text: 'Membran'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Membran',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/811YM2Go9GL._AC_SL1500_.jpg',
+      text: 'Membran'
     },
   ]
   return (

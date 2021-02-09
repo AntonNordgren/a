@@ -5,24 +5,24 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-import TopicContent from '../../components/TopicContent'
+import TopicContent from '../components/TopicContent'
 
 export default function Sneakers() {
   const shoeList = [
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Ergonomisk',
+      img: 'https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_843,q_auto,w_1500/c_pad,h_843,w_1500/R8837453-01?pgw=1&pgwact=1',
+      text: 'Ergonomisk'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Ergonomisk',
+      img: 'https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_843,q_auto,w_1500/c_pad,h_843,w_1500/R8837453-01?pgw=1&pgwact=1',
+      text: 'Ergonomisk'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Ergonomisk',
+      img: 'https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_843,q_auto,w_1500/c_pad,h_843,w_1500/R8837453-01?pgw=1&pgwact=1',
+      text: 'Ergonomisk'
     },
   ]
   return (

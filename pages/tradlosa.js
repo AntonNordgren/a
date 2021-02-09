@@ -5,24 +5,24 @@ import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-import TopicContent from '../../components/TopicContent'
+import TopicContent from '../components/TopicContent'
 
 export default function Sneakers() {
   const shoeList = [
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Trådlös',
+      img: 'https://assets.logitech.com/assets/55137/k270-gallery.png',
+      text: 'Trådlös'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Trådlös',
+      img: 'https://assets.logitech.com/assets/55137/k270-gallery.png',
+      text: 'Trådlös'
     },
     {
-      name: 'Klickiga',
-      img: 'https://c1.neweggimages.com/ProductImage/AN5JS201021PbQ8x.jpg',
-      text: 'Klickiga brytare'
+      name: 'Trådlös',
+      img: 'https://assets.logitech.com/assets/55137/k270-gallery.png',
+      text: 'Trådlös'
     },
   ]
   return (

@@ -88,9 +88,10 @@ export default function Navigation() {
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{ padding: "5px" }}>
       <Navbar.Brand className="navbrand">
         <Link href="/">
-          <img className="navbrand" src="/TG_turkos.png" width="50px" />
+          <img className="navbrand" src="/lilla_loggan.png" width="50px" />
         </Link>
       </Navbar.Brand>
+      <img id="navbar-big-logo" src="/stora_loggan.png" width="250px" />
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">{navLinks}</Nav>

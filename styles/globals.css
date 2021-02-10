@@ -16,4 +16,7 @@ body {
   .dropdown:hover>.dropdown-menu {
     display: block;
   }
+  #navbar-big-logo {
+    display: none;
+  }
 }

@@ -91,7 +91,7 @@ export default function Navigation() {
           <img className="navbrand" src="/lilla_loggan.png" width="50px" style={ {marginRight: "10px"} } />
         </Link>
       </Navbar.Brand>
-      <img id="navbar-big-logo" src="/stora_loggan.png" width="250px" />
+      <img id="navbar-big-logo" src="/stora_loggan.png" />
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">{navLinks}</Nav>

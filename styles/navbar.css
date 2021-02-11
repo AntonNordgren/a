@@ -27,11 +27,20 @@
 .dropdown-menu {
   display: none;
 }
+#navbar-dropdown {
+  color: #66Fcf1;
+  margin-bottom: -5px;
+}
 
-#navbarMain {
-  background-color: red !important;
+#navbar-dropdown:hover {
+  color: #ffffff5d;
+  text-decoration: underline;
 }
 
 #navbar-dropdown::after{
   display: none; 
+}
+
+.dropdown-item {
+  cursor: pointer;
 }

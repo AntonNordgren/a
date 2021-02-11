@@ -96,7 +96,7 @@ export default function Navigation() {
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{ padding: "5px" }}>
       <Navbar.Brand className="navbrand">
         <Link href="/">
-          <img className="navbrand" src="/lilla_loggan.png" width="40px" style={ {marginRight: "10px"} } />
+          <img className="navbrand" src="/loggan_kanske.png" width="50px" style={ {marginRight: "10px"} } />
         </Link>
       </Navbar.Brand>
       <img id="navbar-big-logo" src="/stora_loggan.png" />

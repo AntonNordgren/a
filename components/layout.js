@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   const pageStyle = {
     display: "grid",
     gridTemplateRows: "auto 1fr auto",
-    minHeight: "calc(100vh - 147px)",
+    minHeight: "calc(100vh - 149px)",
   }
 
   return (

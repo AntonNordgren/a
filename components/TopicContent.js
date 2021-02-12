@@ -13,10 +13,10 @@ export default function TopicContent({ data }) {
           {
             data.map(shoe => (
               <Col className="p-2" xs={12} md={6} lg={4}>
-                <Card style={{ borderRadius: "0px", border: "1 solid grey",  borderRadius: "0px", height: "550px" }}>
-                  <div style={{ display: "flex", height: "75%" }}>
+                <Card style={{ borderRadius: "0px", border: "1 solid grey",  borderRadius: "0px", height: "500px" }}>
+                  <div style={{ display: "flex", height: "70%" }}>
                     <div style={{ display: "flex", justifContent: "center", alignItems: "center" }}>
-                      <Card.Img style={{padding: "20px"}} src={shoe.img} />
+                      <Card.Img style={{padding: "15px"}} src={shoe.img} />
                     </div>
                   </div>
                   <Card.Body>

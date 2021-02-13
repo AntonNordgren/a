@@ -80,7 +80,7 @@ export default function Navigation() {
         <NavDropdown id="navbar-dropdown" title="Mekaniska" style={{ fontSize: "1.5em" }} show={ show } onClick={ toogleDropdown } onMouseEnter={ showDropdown } onMouseLeave={ hideDropdown }>
           {
             nav.dropdown.map(dropdownItem => (
-              <Link as="NavDropdown.Item" href={dropdownItem.link}>
+              <Link href={dropdownItem.link}>
                 <div className="dropdown-item">
                   {dropdownItem.name}
                 </div>
@@ -93,10 +93,10 @@ export default function Navigation() {
   )
 
   return (
-    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{ padding: "5px" }}>
+    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{padding: "5px"}}>
       <Navbar.Brand className="navbrand">
         <Link href="/">
-          <img className="navbrand" src="/loggan_kanske.png" width="50px" style={ {marginRight: "10px"} } />
+          <img className="navbrand" src="/logo.png" width="50px" style={{marginRight: "10px"}} />
         </Link>
       </Navbar.Brand>
       <img id="navbar-big-logo" src="/stora_loggan.png" />

@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <Navbar className="p-0 m-0" style={style}>
       <div style={{width: "100%"}}>
-        <img src="/stora_loggan.png" width="250px" />
+        <img src="/tangentbordsguiden.png" width="250px" />
       </div>
     </Navbar>
   )

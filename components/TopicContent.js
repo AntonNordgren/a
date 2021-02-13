@@ -12,7 +12,7 @@ export default function TopicContent({ data }) {
         <Row className="justify-content-center">
           {
             data.map(shoe => (
-              <Col className="p-2" xs={12} md={6} lg={4}>
+              <Col className="pt-2 pb-2 pl-1 pr-1 m-0" xs={12} md={6} lg={4}>
                 <Card style={{ borderRadius: "0px", border: "1 solid grey",  borderRadius: "0px", height: "500px" }}>
                   <div style={{ display: "flex", height: "70%" }}>
                     <div style={{ display: "flex", justifContent: "center", alignItems: "center" }}>

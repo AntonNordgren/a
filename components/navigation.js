@@ -94,16 +94,18 @@ export default function Navigation() {
 
   return (
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{padding: "5px"}}>
-      <Navbar.Brand className="navbrand">
-        <Link href="/">
-          <img className="navbrand" src="/logo.png" width="50px" style={{marginRight: "10px"}} />
-        </Link>
-      </Navbar.Brand>
-      <img id="navbar-big-logo" src="/stora_loggan.png" />
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">{navLinks}</Nav>
-      </Navbar.Collapse>
+      <div className="container">
+        <Navbar.Brand className="navbrand">
+          <Link href="/">
+            <img className="navbrand" src="/logo.png" width="50px" style={{marginRight: "10px", position: "relative", left: "5px"}} />
+          </Link>
+        </Navbar.Brand>
+        <img id="navbar-big-logo" src="tangentbordsguiden.png" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">{navLinks}</Nav>
+        </Navbar.Collapse>
+      </div>
     </Navbar>
   )
 }

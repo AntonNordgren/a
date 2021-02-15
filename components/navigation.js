@@ -71,17 +71,18 @@ export default function Navigation() {
       if (!nav.hasOwnProperty('dropdown')) {
         return (
           <Link href={nav.link}>
-            <a className="navigation-link">{nav.name}</a>
+            <a className="navigation-link pl-3">{nav.name}</a>
           </Link>
         )
       }
 
       return (
-        <NavDropdown id="navbar-dropdown" title="Mekaniska" style={{ fontSize: "1.5em" }} show={ show } onClick={ toogleDropdown } onMouseEnter={ showDropdown } onMouseLeave={ hideDropdown }>
+        <NavDropdown id="navbar-dropdown" title={nav.name} style={{ backgroundColor: "#1f2833", fontSize: "1.5em", marginTop: "-8px", marginRight: "-5px", borderRadius: "0px", zIndex: "1" }} show={ show } onClick={ toogleDropdown } onMouseEnter={ showDropdown } onMouseLeave={ hideDropdown }>
+          {/* <div style={{height: "10px"}}></div> */}
           {
             nav.dropdown.map(dropdownItem => (
               <Link href={dropdownItem.link}>
-                <div className="dropdown-item">
+                <div className="dropdown-item pt-1 pb-1" style={{textAlign: "center", fontSize: "1.2em", color: "66FCF1"}}>
                   {dropdownItem.name}
                 </div>
               </Link>
@@ -93,17 +94,16 @@ export default function Navigation() {
   )
 
   return (
-    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" style={{padding: "5px"}}>
+    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: "#1f2833", padding: "5px"}}>
       <div className="container">
         <Navbar.Brand className="navbrand">
           <Link href="/">
-            <img className="navbrand" src="/logo.png" width="50px" style={{marginRight: "10px", position: "relative", left: "5px"}} />
+            <img className="navbrand" src="/TG_TANGENTBORDSGUIDEN.png" width="350" style={{ marginRight: "10px", position: "relative", left: "5px" }} />
           </Link>
         </Navbar.Brand>
-        <img id="navbar-big-logo" src="tangentbordsguiden.png" />
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">{navLinks}</Nav>
+        <Navbar.Collapse style={{ paddingTop: "10px" }}>
+          <Nav className="ml-auto">{navLinks}</Nav>
         </Navbar.Collapse>
       </div>
     </Navbar>

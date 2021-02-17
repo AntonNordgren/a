@@ -24,6 +24,16 @@ export default function Sneakers() {
       img: 'https://images-na.ssl-images-amazon.com/images/I/811YM2Go9GL._AC_SL1500_.jpg',
       text: 'Membran'
     },
+    {
+      name: 'Membran',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/811YM2Go9GL._AC_SL1500_.jpg',
+      text: 'Membran'
+    },
+    {
+      name: 'Membran',
+      img: 'https://images-na.ssl-images-amazon.com/images/I/811YM2Go9GL._AC_SL1500_.jpg',
+      text: 'Membran'
+    },
   ]
   return (
     <div>

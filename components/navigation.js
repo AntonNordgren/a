@@ -4,30 +4,11 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
+import CustomDropDown from './CustomDropDown'
+
 import Link from 'next/link'
 
 export default function Navigation() {
-
-  const [show, setShow] = useState(false)
-
-  const showDropdown = e => {
-    if(window.innerWidth >= 763) {
-      setShow(!show);
-    }
-  }
-
-  const hideDropdown = e => {
-    if(window.innerWidth >= 763) {
-      setShow(false);
-    }
-  }
-
-  const toogleDropdown = e => {
-    if(window.innerWidth <= 763) {
-      if(show === false) setShow(!show)
-      else setShow(false)
-    }
-  }
 
   const navs = [
     {
@@ -64,46 +45,50 @@ export default function Navigation() {
       name: "Ergonomiska",
       link: "/ergonomiska"
     },
+    {
+      name: "Guider",
+      dropdown:
+        [
+          {
+            name: "Rengöring",
+            link: "/guider/rengoring"
+          },
+        ]
+    },
   ]
 
   const navLinks = (
     navs.map(nav => {
       if (!nav.hasOwnProperty('dropdown')) {
         return (
-          <Link href={nav.link}>
+          <Link href={nav.link} key={nav.name}>
             <a className="navigation-link pl-3">{nav.name}</a>
           </Link>
         )
       }
 
       return (
-        <NavDropdown id="navbar-dropdown" title={nav.name} style={{ backgroundColor: "#1f2833", fontSize: "1.5em", marginTop: "-8px", marginRight: "-5px", borderRadius: "0px", zIndex: "1" }} show={ show } onClick={ toogleDropdown } onMouseEnter={ showDropdown } onMouseLeave={ hideDropdown }>
-          {/* <div style={{height: "10px"}}></div> */}
-          {
-            nav.dropdown.map(dropdownItem => (
-              <Link href={dropdownItem.link}>
-                <div className="dropdown-item pt-1 pb-1" style={{textAlign: "center", fontSize: "1.2em", color: "66FCF1"}}>
-                  {dropdownItem.name}
-                </div>
-              </Link>
-            ))
-          }
-        </NavDropdown>
+        <CustomDropDown nav={nav} />
       )
     })
   )
 
   return (
-    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: "#1f2833", padding: "5px"}}>
+    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: "#1f2833"}}>
       <div className="container">
         <Navbar.Brand className="navbrand">
           <Link href="/">
-            <img className="navbrand" src="/TG_TANGENTBORDSGUIDEN.png" width="350" style={{ marginRight: "10px", position: "relative", left: "5px" }} />
+            <img
+              className="navbrand" src="/TG_TANGENTBORDSGUIDEN.png"
+              width="300"
+              style={{ marginRight: "10px", position: "relative", left: "5px" }} />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse style={{ paddingTop: "10px" }}>
-          <Nav className="ml-auto">{navLinks}</Nav>
+          <Nav className="ml-auto">
+            { navLinks }
+          </Nav>
         </Navbar.Collapse>
       </div>
     </Navbar>

@@ -11,39 +11,39 @@ export default function CustomDropDown({ nav }) {
   const [show, setShow] = useState(false)
 
   const showDropdown = e => {
-    if(window.innerWidth >= 763) {
+    if(window.innerWidth >= 992) {
       setShow(!show);
     }
   }
 
   const hideDropdown = e => {
-    if(window.innerWidth >= 763) {
+    if(window.innerWidth >= 992) {
       setShow(false);
     }
   }
 
-  const toogleDropdown = e => {
-    if(window.innerWidth <= 763) {
+  const toggleDropdown = e => {
+    if(window.innerWidth <= 992) {
       if(show === false) setShow(!show)
       else setShow(false)
     }
   }
 
-  return(
+  return (
     <NavDropdown
       key={nav.name}
       title={nav.name}
+
       show={show}
 
-      menuAlign="center"
-
       id="navbar-dropdown"
+      className="navigation-link pl-3"
 
-      onClick={toogleDropdown}
+      onClick={toggleDropdown}
       onMouseEnter={showDropdown}
       onMouseLeave={hideDropdown}
     >
-      <div style={{height: "10px", backgroundColor: "#1f2833"}}></div>
+      <div className="dropdown-helper"></div>
       {
         nav.dropdown.map(dropdownItem => (
           <Link href={dropdownItem.link} key={dropdownItem.name}>

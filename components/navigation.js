@@ -12,6 +12,16 @@ export default function Navigation() {
 
   const navs = [
     {
+      name: "Guider",
+      dropdown:
+        [
+          {
+            name: "Rengöring",
+            link: "/guider/rengoring"
+          },
+        ]
+    },
+    {
       name: "Mekaniska",
       dropdown:
         [
@@ -45,25 +55,17 @@ export default function Navigation() {
       name: "Ergonomiska",
       link: "/ergonomiska"
     },
-    {
-      name: "Guider",
-      dropdown:
-        [
-          {
-            name: "Rengöring",
-            link: "/guider/rengoring"
-          },
-        ]
-    },
   ]
 
   const navLinks = (
     navs.map(nav => {
       if (!nav.hasOwnProperty('dropdown')) {
         return (
-          <Link href={nav.link} key={nav.name}>
-            <a className="navigation-link pl-3">{nav.name}</a>
-          </Link>
+          <div className="navigation-link">
+            <Link href={nav.link} key={nav.name}>
+              <a className="navigation-link pl-3">{nav.name}</a>
+            </Link>
+          </div>
         )
       }
 
@@ -74,18 +76,19 @@ export default function Navigation() {
   )
 
   return (
-    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: "#1f2833"}}>
-      <div className="container">
+    <Navbar collapseOnSelect expand="lg" className="nav-main">
+      <div className="container navbar-container">
         <Navbar.Brand className="navbrand">
           <Link href="/">
             <img
-              className="navbrand" src="/TG_TANGENTBORDSGUIDEN.png"
+              className="navbrand"
+              src="/TG_TANGENTBORDSGUIDEN.png"
               width="300"
-              style={{ marginRight: "10px", position: "relative", left: "5px" }} />
+            />
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse style={{ paddingTop: "10px" }}>
+        <Navbar.Toggle />
+        <Navbar.Collapse sticky="bottom">
           <Nav className="ml-auto">
             { navLinks }
           </Nav>

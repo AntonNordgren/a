@@ -83,7 +83,6 @@ export default function Navigation() {
             <img
               className="navbrand"
               src="/TG_TANGENTBORDSGUIDEN.png"
-              width="300"
             />
           </Link>
         </Navbar.Brand>

@@ -16,6 +16,7 @@
 .navbrand {
   cursor: pointer;
   margin-right: -5px;
+  width: 300px;
 }
 
 /* navbardropdown */
@@ -92,7 +93,7 @@
 @media only screen and (max-width: 992px) {
   
   .navbrand {
-
+    width: 250px;
   }
 
   .dropdown-helper {
@@ -135,4 +136,10 @@
     background-color: #1f2833 !important;
   }
 
-} 
+}
+
+@media only screen and (max-width: 320px) {
+  .navbrand {
+    width: 180px;
+  }
+}

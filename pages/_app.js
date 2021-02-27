@@ -12,7 +12,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet" />
         <link rel="shortcut icon" type="image/x-icon" href="logo.png" />

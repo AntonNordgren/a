@@ -36,8 +36,8 @@ export default function CustomDropDown({ nav }) {
 
       show={show}
 
-      id="navbar-dropdown"
-      className="navigation-link pl-3"
+      id=""
+      className=""
 
       onClick={toggleDropdown}
       onMouseEnter={showDropdown}

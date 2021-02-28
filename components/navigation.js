@@ -69,7 +69,7 @@ export default function Navigation() {
     navs.map(nav => {
       if (!nav.hasOwnProperty('dropdown')) {
         return (
-          <div className="navigation-link">
+          <div className="navigation-link navigation-link-normal">
             <Link href={nav.link} key={nav.name}>
               <a className="">{nav.name}</a>
             </Link>
@@ -78,7 +78,7 @@ export default function Navigation() {
       }
 
       return (
-        <div className="navigation-link">
+        <div className="navigation-link navigation-link-dropdown">
           <CustomDropDown nav={nav} />
         </div>
       )
@@ -111,33 +111,36 @@ export default function Navigation() {
       <div className="container navbar-container">
         <Navbar.Brand className="navbrand">
           <Link href="/">
-            <img
-              className="navbrand"
-              src="/TG_TANGENTBORDSGUIDEN.png"
-            />
+            <img className="navbrand" src="/TG_TANGENTBORDSGUIDEN.png" />
           </Link>
         </Navbar.Brand>
 
-        <svg className="dropdownIcon" onClick={() => toggleDropdown()} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#66Fcf1" class="bi bi-list" viewBox="0 0 16 16">
+        <svg id="listIcon" className="dropdownIcon" onClick={() => toggleDropdown()} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#66Fcf1" class="bi bi-list" viewBox="0 0 16 16">
           <path fill-rule="evenodd"
             d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
 
-        {renderDropdown()}
+        { renderDropdown() }
 
 
 
 
 
         {/* <Navbar.Toggle /> */}
-        {/* <Navbar.Collapse>
-          <Nav className="ml-auto toggle-navbar">
-            <div>
-              <button>exit</button>
-            </div>
-            { navLinks }
-          </Nav>
-        </Navbar.Collapse> */}
+
+        {/* {
+          () => {
+            if(window.innerWidth >= 992) {
+              return(
+                <Navbar.Collapse>
+                  <Nav className="">
+                    { navLinks }
+                  </Nav>
+                </Navbar.Collapse>
+              )
+            }
+          }
+        } */}
       </div>
     </Navbar>
   )

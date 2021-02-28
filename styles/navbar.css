@@ -6,7 +6,7 @@
 .navigation-link {
   color: #66Fcf1 !important;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .navigation-link:hover {
@@ -35,7 +35,7 @@
 }
 
 .dropdown-menu {
-  position: relative !important;
+  position: absolute !important;
 
   cursor: pointer;
   border-radius: 0px !important;
@@ -64,8 +64,8 @@
 }
 
 .dropdown-helper {
-  height: "11px";
-  background-color: "#1f2833";
+  height: 17px;
+  background-color: #1f2833;
 }
 
 .collapsing {
@@ -78,6 +78,7 @@
 
 .dropdown {
   position: relative;
+  top: -5px;
 }
 
 .navbar-toggler-icon{
@@ -89,9 +90,56 @@
 }
 
 
+/* asdasdasdasdasdasdasdasd */
+
+.dropdownIcon {
+  display: none;
+}
+
+.dropdown-header {
+  height: 0px;
+  width: 0px;
+  padding: 0px !important;
+}
+
+.dropdown-navContainer {
+  display: flex;
+}
+
+.navigation-link-normal {
+  position: relative;
+  top: 2px;
+  padding-left: 10px;
+}
+
+.navigation-link-dropdown {
+  position: relative;
+  top: 7px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+a {
+  color: #66Fcf1 !important;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
 @media only screen and (max-width: 992px) {
 
-  #navbar-dropdown {
+  .dropdownIcon {
+    display: block;
+  }
+
+  .navbrand {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  /* #navbar-dropdown {
     color: #66Fcf1;
     cursor: pointer;
   }
@@ -151,21 +199,17 @@
   .navigation-link {
     flex: 1;
     background-color: #1f2833;
+  } */
+
+  /* asdasdasdasd */
+
+  .dropdown-menu {
+    position: relative !important;
   }
-
-}
-
-@media only screen and (max-width: 320px) {
-  .navbrand {
-    width: 180px;
-  }
-}
-
-/* asdasdasdasd */
 
 .customDropdown {
   position: fixed;
-  width: 400px;
+  width: 500px;
   background-color: #1f2833;
   height: 100vh;
   top: 0px;
@@ -180,7 +224,7 @@
 }
 
 .dropDownHide {
-  transform: translate(400px, 0px);
+  transform: translate(500px, 0px);
 }
 
 .dropdown-header {
@@ -204,21 +248,29 @@
   cursor: pointer;
 }
 
-.nav-link {
-  padding: 0 !important;
-}
-
 .navigation-link {
   color: #66Fcf1 !important;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   padding: 5px 0px 5px 0px;
   border-bottom: 1px solid #66Fcf1;
 }
 
 .dropdown-item {
-  font-size: 30px;
+  font-size: 25px;
   width: 100%;
+}
+
+.dropdown-item:hover {
+  background-color: none;
+}
+
+.dropdown-helper {
+  height: 0px;
+}
+
+.dropdown {
+  top: 0px;
 }
 
 a {
@@ -231,4 +283,23 @@ a:hover {
 
 .dropdown-item:hover {
   color: #ffffff5d !important;
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .navbrand {
+    position: absolute;
+    top: 14px;
+    width: 200px;
+  }
+
+  .customDropdown {
+    width: 100vw;
+  }
+
+}
+
+}
+
+@media only screen and (max-width: 320px) {
 }

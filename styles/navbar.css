@@ -11,6 +11,7 @@
 
 .navigation-link:hover {
   color: #ffffff5d;
+  cursor: pointer;
 }
 
 .navbrand {
@@ -92,6 +93,10 @@
 
 /* asdasdasdasdasdasdasdasd */
 
+.theLinkTag {
+  width: 100%;
+}
+
 .dropdownIcon {
   display: none;
 }
@@ -110,6 +115,7 @@
   position: relative;
   top: 2px;
   padding-left: 10px;
+  width: 100%;
 }
 
 .navigation-link-dropdown {
@@ -127,6 +133,10 @@ a {
   padding: 0 !important;
 }
 
+.dropdown-logo {
+  display: none;
+}
+
 @media only screen and (max-width: 992px) {
 
   .dropdownIcon {
@@ -137,6 +147,30 @@ a {
     position: absolute;
     top: 10px;
     left: 10px;
+  }
+
+  .navigation-link-normal {
+    top: 6px;
+  }
+
+  .navigation-link-normal-container {
+    width: 100%;
+  }
+
+  .navigation-link-normal-container:hover {
+    background-color: #ffffff5d !important;
+    cursor: pointer;
+  }
+
+  .dropdown-footer {
+  }
+
+  .dropdown-logo {
+    display: block;
+    width: 300px;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 150px);
   }
 
   /* #navbar-dropdown {
@@ -205,6 +239,7 @@ a {
 
   .dropdown-menu {
     position: relative !important;
+    width: 100%;
   }
 
 .customDropdown {
@@ -228,6 +263,7 @@ a {
 }
 
 .dropdown-header {
+  display: flex !important;
   height: 75px;
 }
 

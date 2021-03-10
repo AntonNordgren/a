@@ -23,7 +23,7 @@ export default function TopicContent({ data }) {
                     <Card.Text>
                       {product.text}
                     </Card.Text>
-                    <Button variant="secondary" style={{ borderRadius: "0px"}}>Läs mer här!</Button>
+                    <Button variant="secondary" style={{ borderRadius: "0px" }}>Läs mer här!</Button>
                   </Card.Body>
                 </Card>
               </Col>

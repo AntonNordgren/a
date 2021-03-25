@@ -5,17 +5,17 @@ export default function rengoring() {
   const itemList = [
     {
       name: 'Rengöring',
-      img: '',
+      img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengöring'
     },
     {
       name: 'Rengöring',
-      img: '',
+      img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengöring'
     },
     {
       name: 'Rengöring',
-      img: '',
+      img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengöring'
     },
   ]

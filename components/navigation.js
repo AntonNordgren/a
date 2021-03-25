@@ -18,47 +18,47 @@ export default function Navigation() {
 
   const navs = [
     {
-      name: "Guider",
+      name: "GUIDER",
       dropdown:
         [
           {
-            name: "Rengöring",
+            name: "RENGÖRING",
             link: "/guider/rengoring"
           },
         ]
     },
     {
-      name: "Mekaniska",
+      name: "MEKANISKA",
       dropdown:
         [
           {
-            name: "Linjära",
+            name: "LINJÄRA",
             link: "/mekaniska/linjara"
           },
           {
-            name: "Taktila",
+            name: "TAKTILA",
             link: "/mekaniska/taktila"
           },
           {
-            name: "Klickiga",
+            name: "KLICKIGA",
             link: "/mekaniska/klickiga"
           }
         ]
     },
     {
-      name: "Membran",
+      name: "MEMBRAN",
       link: "/membran"
     },
     {
-      name: "Trådlösa",
+      name: "TRÅDLÖSA",
       link: "/tradlosa"
     },
     {
-      name: "Bluetooth",
+      name: "BLUETOOTH",
       link: "/bluetooth"
     },
     {
-      name: "Ergonomiska",
+      name: "ERGONOMISKA",
       link: "/ergonomiska"
     },
   ]

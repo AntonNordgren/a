@@ -7,7 +7,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: calc(100vh - 155px);
-  font-family: "Slabo 27px", serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body {

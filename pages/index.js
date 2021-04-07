@@ -4,10 +4,6 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home() {
 
-  const imgStyle = {
-    maxHeight: "500px"
-  }
-
   return (
     <Container>
       <div style={{ textAlign: "center", marginTop: "20px" }}>

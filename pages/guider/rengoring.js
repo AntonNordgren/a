@@ -4,20 +4,36 @@ export default function rengoring() {
 
   const itemList = [
     {
-      name: 'Rengöring',
+      name: 'PRF 4-44',
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
-      text: 'Rengöring'
+      text: 'Rengör tangentbordet med luft!',
+      details: [
+        'Bra fräs',
+        'Använd med tändare för att göra en eldkastare på dina fiender! 🔥😂💀',
+        'Rengör allt bös i öronen och bli döv! 👌'
+      ]
     },
     {
-      name: 'Rengöring',
+      name: 'PRF 4-44',
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
-      text: 'Rengöring'
+      text: 'Rengör tangentbordet med luft!',
+      details: [
+        'Bra fräs',
+        'Använd med tändare för att göra en eldkastare på dina fiender! 🔥😂💀',
+        'Rengör allt bös i öronen och bli döv! 👌'
+      ]
     },
     {
-      name: 'Rengöring',
+      name: 'PRF 4-44',
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
-      text: 'Rengöring'
+      text: 'Rengör tangentbordet med luft!',
+      details: [
+        'Bra fräs',
+        'Använd med tändare för att göra en eldkastare på dina fiender! 🔥😂💀',
+        'Rengör allt bös i öronen och bli döv! 👌'
+      ]
     },
+    
   ]
 
   const textList = [

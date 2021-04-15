@@ -12,18 +12,29 @@ export default function TopicContent({ data }) {
           {
             data.map(product => (
               <Col className="pt-2 pb-2 pl-1 pr-1 m-0" xs={12} md={6} lg={4}>
-                <Card style={{ borderRadius: "0px", border: "1 solid grey",  borderRadius: "0px", height: "500px" }}>
-                  <div style={{ display: "flex", height: "70%" }}>
-                    <div style={{ display: "flex", justifContent: "center", alignItems: "center" }}>
+                <Card style={{ borderRadius: "0px", border: "1 solid grey",  borderRadius: "0px", height: "500px", overflow: "hidden" }}>
+                  <div style={{ display: "flex", height: "250px" }}>
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} className="p-1">
                       <Card.Img style={{padding: "15px"}} src={product.img} />
                     </div>
                   </div>
-                  <Card.Body>
-                    <Card.Title><h4>{product.name}</h4></Card.Title>
+                  <Card.Body className="p-3">
+  
+                    <h4 className="p-0 mb-2">{product.name}</h4>
+
                     <Card.Text>
-                      {product.text}
+                      <h6 className="m-0">{product.text}</h6>
+                      <ul style={{position: "relative", left: "0px", paddingLeft: "15px", margin: "0px", top: "10px", fontSize: "15px"}}>
+                        { product.details.map( detail => <li>{ detail }</li> ) }
+                      </ul>
                     </Card.Text>
-                    <Button variant="secondary" style={{ borderRadius: "0px" }}>Läs mer här!</Button>
+
+                    <div style={{ position: "relative", height: "60px" }}>
+                      <Button variant="secondary" style={{ position: "absolute", marginLeft: "calc(50% - 75px)", marginRight: "calc(50% - 75px)", width: "150px",
+                      fontSize: "1.1em", top: "15px", borderRadius: "0px" }}>Läs mer här!</Button>
+                    </div>
+
+
                   </Card.Body>
                 </Card>
               </Col>

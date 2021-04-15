@@ -6,17 +6,35 @@ export default function rengoring() {
     {
       name: 'Klickiga',
       img: 'https://images-na.ssl-images-amazon.com/images/I/61zTpKONOFL._AC_SL1500_.jpg',
-      text: 'Klickiga'
+      text: 'Klickiga',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
     {
       name: 'Klickiga',
       img: 'https://images-na.ssl-images-amazon.com/images/I/61zTpKONOFL._AC_SL1500_.jpg',
-      text: 'Klickiga'
+      text: 'Klickiga',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
     {
       name: 'Klickiga',
       img: 'https://images-na.ssl-images-amazon.com/images/I/61zTpKONOFL._AC_SL1500_.jpg',
-      text: 'Klickiga'
+      text: 'Klickiga',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
   ]
 

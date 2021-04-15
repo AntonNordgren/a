@@ -6,17 +6,35 @@ export default function Bluetooth() {
     {
       name: 'Bluetooth',
       img: 'https://img.gkbcdn.com/s3/p/2019-08-24/ajazz-380i-bluetooth-wireless-keyboard-gray-1571992829999.jpg',
-      text: 'Bluetooth'
+      text: 'Bluetooth',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
     {
       name: 'Bluetooth',
       img: 'https://img.gkbcdn.com/s3/p/2019-08-24/ajazz-380i-bluetooth-wireless-keyboard-gray-1571992829999.jpg',
-      text: 'Bluetooth'
+      text: 'Bluetooth',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
     {
       name: 'Bluetooth',
       img: 'https://img.gkbcdn.com/s3/p/2019-08-24/ajazz-380i-bluetooth-wireless-keyboard-gray-1571992829999.jpg',
-      text: 'Bluetooth'
+      text: 'Bluetooth',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
   ]
 

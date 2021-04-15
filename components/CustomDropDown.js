@@ -1,7 +1,5 @@
 import { useState } from 'react'
 
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
 import Link from 'next/link'
@@ -42,8 +40,9 @@ export default function CustomDropDown({ nav, toggleDropdownFunction }) {
       onClick={toggleDropdown}
       onMouseEnter={showDropdown}
       onMouseLeave={hideDropdown}
+      
     >
-      <div className="dropdown-helper"></div>
+      <div className="dropdown-helper" />
       {
         nav.dropdown.map(dropdownItem => (
           <Link href={dropdownItem.link} key={dropdownItem.name}>

@@ -6,17 +6,35 @@ export default function linjara() {
     {
       name: 'Linjära',
       img: 'https://images-na.ssl-images-amazon.com/images/I/71nRfZNacyL._AC_SL1500_.jpg',
-      text: 'Linjära'
+      text: 'Linjära',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
     {
       name: 'Linjära',
       img: 'https://images-na.ssl-images-amazon.com/images/I/71nRfZNacyL._AC_SL1500_.jpg',
-      text: 'Linjära'
+      text: 'Linjära',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
     {
       name: 'Linjära',
       img: 'https://images-na.ssl-images-amazon.com/images/I/71nRfZNacyL._AC_SL1500_.jpg',
-      text: 'Linjära'
+      text: 'Linjära',
+      details: [
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
+        'Detail 4',
+      ]
     },
   ]
 

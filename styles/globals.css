@@ -14,19 +14,6 @@ body {
   background-color: #f2f3f4 !important;
 }
 
-.dropdown-toggle::after { 
-  content: none; 
-}
-
-/* @media only screen and (min-width: 992px) {
-  .dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  #navbar-big-logo {
-    display: none;
-  }
-} */
-
 @media only screen and (max-width: 315px) {
   #navbar-big-logo {
     display: none;

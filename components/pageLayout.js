@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import TopicContent from '../components/TopicContent'
 
-export default function page({ pageTitle, itemList, textList }) {
+export default function page({ pageTitle, itemList, textList, cardInfoList }) {
   return (
     <div>
       <h1 className="m-2" style={{ textAlign: "center", fontFamily: 'Teko, sans-serif', fontSize: "3em", top: "5px", position: "relative" }}>{pageTitle}</h1>

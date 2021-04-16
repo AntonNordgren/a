@@ -8,9 +8,9 @@ export default function rengoring() {
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengör tangentbordet med luft!',
       details: [
-        'Bra fräs',
-        'Använd med tändare för att göra en eldkastare på dina fiender! 🔥😂💀',
-        'Rengör allt bös i öronen och bli döv! 👌'
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
       ]
     },
     {
@@ -18,9 +18,9 @@ export default function rengoring() {
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengör tangentbordet med luft!',
       details: [
-        'Bra fräs',
-        'Använd med tändare för att göra en eldkastare på dina fiender! 🔥😂💀',
-        'Rengör allt bös i öronen och bli döv! 👌'
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
       ]
     },
     {
@@ -28,9 +28,9 @@ export default function rengoring() {
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengör tangentbordet med luft!',
       details: [
-        'Bra fräs',
-        'Använd med tändare för att göra en eldkastare på dina fiender! 🔥😂💀',
-        'Rengör allt bös i öronen och bli döv! 👌'
+        'Detail 1',
+        'Detail 2',
+        'Detail 3',
       ]
     },
     

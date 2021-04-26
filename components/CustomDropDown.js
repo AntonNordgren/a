@@ -29,18 +29,14 @@ export default function CustomDropDown({ nav, toggleDropdownFunction }) {
 
   return (
     <NavDropdown
-      key={nav.name}
-      title={nav.name}
-
-      show={show}
-
+      key={ nav.name }
+      title={ nav.name }
+      show={ show }
       id=""
-      className=""
-
-      onClick={toggleDropdown}
-      onMouseEnter={showDropdown}
-      onMouseLeave={hideDropdown}
-      
+      onClick={ toggleDropdown }
+      onMouseEnter={ showDropdown }
+      onMouseLeave={ hideDropdown }
+      className={ show ? 'custom-dropdown-toggle-on' : 'custom-dropdown-toggle-off' }
     >
       <div className="dropdown-helper" />
       {

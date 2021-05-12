@@ -91,7 +91,7 @@ export default function Navigation() {
 
         <Navbar.Brand className="navbrand">
           <Link href="/">
-            <img className="navbrand" src="/TG_TANGENTBORDSGUIDEN.png" />
+            <img src="/TANGENTBORDSGUIDEN.svg" width="275px" />
           </Link>
         </Navbar.Brand>
 
@@ -111,7 +111,6 @@ export default function Navigation() {
               </svg>
             </div>
             <div className="dropdown-navContainer">{navLinks}</div>
-            <img className="dropdown-logo" src="/TG_TANGENTBORDSGUIDEN.png"></img>
           </div>
         </div>
       </div>

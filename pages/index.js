@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Container>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <img src="/TG_Tangentbordsguiden_MB.png" style={{ width: "100%" }} />
+        <img src="/TG_Guiden.svg" style={{ maxWidth: "100%" }} />
 
         <h1>Under Utveckling</h1>
 

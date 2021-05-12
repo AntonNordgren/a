@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <Container>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <img src="/TG_Guiden.svg" style={{ maxWidth: "100%" }} />
+        <object data="/TG_Guiden.svg" type="image/svg+xml" style={{ maxWidth: "100%" }}></object>
+        {/* <object data="yours.svg" type="image/svg+xml"></object> */}
 
         <h1>Under Utveckling</h1>
 

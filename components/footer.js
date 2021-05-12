@@ -11,7 +11,8 @@ export default function Footer() {
   return (
     <Navbar className="p-0 m-0" style={style}>
       <div style={{width: "100%"}}>
-        <img src="/TANGENTBORDSGUIDEN.svg" width="250px" />
+        <object data="/TG_Turkos.svg" type="image/svg+xml" width="250px"></object>
+        {/* <object data="yours.svg" type="image/svg+xml"></object> */}
       </div>
     </Navbar>
   )

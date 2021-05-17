@@ -8,7 +8,7 @@ export default function TopicContent({ data }) {
   return (
     <div>
       <Container>
-        <Row className="justify-content-left">
+        <Row className="justify-content-left" style={{marginLeft: "-19px", marginRight: "-19px"}}>
           {
             data.map(product => (
               <Col className="pt-2 pb-2 pl-1 pr-1 m-0" xs={12} md={6} lg={4}>

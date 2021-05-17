@@ -51,5 +51,5 @@ export default function ergonomiska() {
 
   ]
 
-  return <Page pageTitle="Ergonomiska" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="ERGONOMISKA TANGENTBORD" itemList={ itemList } textList={ textList } />
 }

@@ -51,5 +51,5 @@ export default function tradlosa() {
 
   ]
 
-  return <Page pageTitle="Trådlösa" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="TRÅDLÖSA TANGENTBORD" itemList={ itemList } textList={ textList } />
 }

@@ -51,5 +51,5 @@ export default function linjara() {
 
   ]
 
-  return <Page pageTitle="Linjära Brytare" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="LINJÄRA BRYTARE" itemList={ itemList } textList={ textList } />
 }

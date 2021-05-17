@@ -49,5 +49,5 @@ export default function rengoring() {
 
   ]
 
-  return <Page pageTitle="Rengöring" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="RENGÖRING" itemList={ itemList } textList={ textList } />
 }

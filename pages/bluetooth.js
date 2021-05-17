@@ -51,5 +51,5 @@ export default function Bluetooth() {
 
   ]
 
-  return <Page pageTitle="Bluetooth" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="BLUETOOTH TANGENTBORD" itemList={ itemList } textList={ textList } />
 }

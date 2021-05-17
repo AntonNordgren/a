@@ -51,5 +51,5 @@ export default function membran() {
 
   ]
 
-  return <Page pageTitle="Membran" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="MEMBRAN TANGENTBORD" itemList={ itemList } textList={ textList } />
 }

@@ -51,5 +51,5 @@ export default function taktila() {
 
   ]
 
-  return <Page pageTitle="Taktila Brytare" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="TAKTILA BRYTARE" itemList={ itemList } textList={ textList } />
 }

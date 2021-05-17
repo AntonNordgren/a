@@ -51,5 +51,5 @@ export default function rengoring() {
 
   ]
 
-  return <Page pageTitle="Klickiga Brytare" itemList={ itemList } textList={ textList } />
+  return <Page pageTitle="KLICKIGA BRYTARE" itemList={ itemList } textList={ textList } />
 }

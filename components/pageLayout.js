@@ -8,7 +8,7 @@ export default function page({ pageTitle, itemList, textList, cardInfoList }) {
       <h1 className="m-2" style={{
       textAlign: "center",
       fontFamily: 'Teko, sans-serif',
-      fontSize: "5em",
+      fontSize: "4em",
       top: "10px",
       position: "relative",
       left: "-10px"
@@ -22,7 +22,7 @@ export default function page({ pageTitle, itemList, textList, cardInfoList }) {
               <div>
                 <h3 style={{textAlign: "center", position: "relative", marginBottom: "20px"}}>{x.header}</h3>
               </div>
-              {x.textParagraphs.map(p => <p>{p}</p>)}
+              { x.textParagraphs.map(p => <p>{p}</p>) }
             </div>
           ))}
         </Container>

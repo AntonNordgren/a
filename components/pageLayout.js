@@ -2,31 +2,29 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import TopicContent from '../components/TopicContent'
 
-export default function page({ pageTitle, itemList, textList, cardInfoList }) {
+export default function page({ pageTitle, itemList, textList, introText }) {
   return (
     <div>
       <h1 className="m-2" style={{
-      textAlign: "center",
-      fontFamily: 'Teko, sans-serif',
-      fontSize: "4em",
-      top: "10px",
-      position: "relative",
-      left: "-10px"
-
+        textAlign: "center",
+        fontFamily: 'Teko, sans-serif',
+        fontSize: "4em",
+        top: "25px",
+        position: "relative",
+        left: "-10px"
       }}>{pageTitle}</h1>
+      <p style={{ textAlign: "left", fontSize: "1.3em", marginTop: "40px" }}>{introText}</p>
       <TopicContent data={itemList} />
-      <Card className="mb-2" style={{ borderRadius: "0px", border: "none", borderRadius: "0px", backgroundColor: "white" }}>
-        <Container fluid className="p-4">
-          {textList.map(x => (
+      <Container fluid className="p-0">
+        {textList.map(x => (
+          <div style={{marginBottom: "30px"}}>
             <div>
-              <div>
-                <h3 style={{textAlign: "center", position: "relative", marginBottom: "20px"}}>{x.header}</h3>
-              </div>
-              { x.textParagraphs.map(p => <p>{p}</p>) }
+              <h2 style={{ textAlign: "center", position: "relative", marginBottom: "20px", fontWeight: "bold", marginTop: "15px" }}>{x.header}</h2>
             </div>
-          ))}
-        </Container>
-      </Card>
+            { x.textParagraphs.map(p => <p>{p}</p>)}
+          </div>
+        ))}
+      </Container>
     </div>
   )
 }

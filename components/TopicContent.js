@@ -12,7 +12,7 @@ export default function TopicContent({ data }) {
           {
             data.map(product => (
               <Col className="pt-2 pb-2 pl-1 pr-1 m-0" xs={12} md={6} lg={4}>
-                <Card style={{ borderRadius: "0px", border: "1 solid grey",  borderRadius: "0px", height: "500px", overflow: "hidden" }}>
+                <Card style={{ border: "1 solid grey",  borderRadius: "0px", height: "500px", overflow: "hidden", border: "solid 1px #1f283370" }}>
                   <div style={{ display: "flex", height: "250px" }}>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} className="p-1">
                       <Card.Img style={{padding: "15px"}} src={product.img} />
@@ -30,8 +30,8 @@ export default function TopicContent({ data }) {
                     </Card.Text>
 
                     <div style={{ position: "relative", height: "60px" }}>
-                      <Button variant="secondary" style={{ position: "absolute", marginLeft: "calc(50% - 75px)", marginRight: "calc(50% - 75px)", width: "150px",
-                      fontSize: "1.1em", top: "15px", borderRadius: "0px" }}>Läs mer här!</Button>
+                      <Button style={{ position: "absolute", marginLeft: "calc(50% - 75px)", marginRight: "calc(50% - 75px)", width: "150px",
+                      fontSize: "1.2em", top: "15px", backgroundColor: "#1f2833", border: "none", color: "#66Fcf1", fontWeight: "bold", borderRadius: "0px" }}>LÄS MER</Button>
                     </div>
 
 

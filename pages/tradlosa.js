@@ -7,6 +7,7 @@ export default function tradlosa() {
       name: 'Trådlösa',
       img: 'https://i5.walmartimages.com/asr/4ac8cdc6-1632-4a96-9dc0-5c2230671666_1.6ba1ddb282b029141b065539e709d6fb.jpeg',
       text: 'Trådlösa',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -18,6 +19,7 @@ export default function tradlosa() {
       name: 'Trådlösa',
       img: 'https://i5.walmartimages.com/asr/4ac8cdc6-1632-4a96-9dc0-5c2230671666_1.6ba1ddb282b029141b065539e709d6fb.jpeg',
       text: 'Trådlösa',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -29,6 +31,7 @@ export default function tradlosa() {
       name: 'Trådlösa',
       img: 'https://i5.walmartimages.com/asr/4ac8cdc6-1632-4a96-9dc0-5c2230671666_1.6ba1ddb282b029141b065539e709d6fb.jpeg',
       text: 'Trådlösa',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',

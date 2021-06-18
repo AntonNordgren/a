@@ -7,6 +7,7 @@ export default function rengoring() {
       name: 'Klickiga',
       img: 'https://images-na.ssl-images-amazon.com/images/I/61zTpKONOFL._AC_SL1500_.jpg',
       text: 'Klickiga',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -18,6 +19,7 @@ export default function rengoring() {
       name: 'Klickiga',
       img: 'https://images-na.ssl-images-amazon.com/images/I/61zTpKONOFL._AC_SL1500_.jpg',
       text: 'Klickiga',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -29,6 +31,7 @@ export default function rengoring() {
       name: 'Klickiga',
       img: 'https://images-na.ssl-images-amazon.com/images/I/61zTpKONOFL._AC_SL1500_.jpg',
       text: 'Klickiga',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',

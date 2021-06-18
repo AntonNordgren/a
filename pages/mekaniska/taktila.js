@@ -7,6 +7,7 @@ export default function taktila() {
       name: 'Taktila',
       img: 'https://resource.logitechg.com/w_695,c_limit,q_auto:best,f_auto,b_rgb:f4f4f4,dpr_2.0/content/dam/gaming/en/products/pro-keyboard/pro-clicky-hero.png?v=1',
       text: 'Taktila',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -18,6 +19,7 @@ export default function taktila() {
       name: 'Taktila',
       img: 'https://resource.logitechg.com/w_695,c_limit,q_auto:best,f_auto,b_rgb:f4f4f4,dpr_2.0/content/dam/gaming/en/products/pro-keyboard/pro-clicky-hero.png?v=1',
       text: 'Taktila',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -29,6 +31,7 @@ export default function taktila() {
       name: 'Taktila',
       img: 'https://resource.logitechg.com/w_695,c_limit,q_auto:best,f_auto,b_rgb:f4f4f4,dpr_2.0/content/dam/gaming/en/products/pro-keyboard/pro-clicky-hero.png?v=1',
       text: 'Taktila',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',

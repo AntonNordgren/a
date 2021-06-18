@@ -7,6 +7,7 @@ export default function ergonomiska() {
       name: 'Ergonomiska',
       img: 'https://www.pricerunner.se/product/1200x630/1829669797/Microsoft-Natural-Ergonomic-Keyboard-4000-(Nordic).jpg',
       text: 'Ergonomiska',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -18,6 +19,7 @@ export default function ergonomiska() {
       name: 'Ergonomiska',
       img: 'https://www.pricerunner.se/product/1200x630/1829669797/Microsoft-Natural-Ergonomic-Keyboard-4000-(Nordic).jpg',
       text: 'Ergonomiska',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -29,6 +31,7 @@ export default function ergonomiska() {
       name: 'Ergonomiska',
       img: 'https://www.pricerunner.se/product/1200x630/1829669797/Microsoft-Natural-Ergonomic-Keyboard-4000-(Nordic).jpg',
       text: 'Ergonomiska',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',

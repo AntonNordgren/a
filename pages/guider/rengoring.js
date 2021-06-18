@@ -7,6 +7,7 @@ export default function rengoring() {
       name: 'PRF 4-44',
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengör tangentbordet med luft!',
+      banner: { text: "Prisvärd", icon: 2 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -17,6 +18,7 @@ export default function rengoring() {
       name: 'PRF 4-44',
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengör tangentbordet med luft!',
+      banner: { text: "Populär", icon: 3 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -27,6 +29,7 @@ export default function rengoring() {
       name: 'PRF 4-44',
       img: 'https://www.elfa.se/Web/WebShopImages/landscape_large/6-/01/30098436-01.jpg',
       text: 'Rengör tangentbordet med luft!',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',

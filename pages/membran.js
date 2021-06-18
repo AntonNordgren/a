@@ -7,6 +7,7 @@ export default function membran() {
       name: 'Membran',
       img: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6321/6321792_sd.jpg',
       text: 'Membran',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -18,6 +19,7 @@ export default function membran() {
       name: 'Membran',
       img: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6321/6321792_sd.jpg',
       text: 'Membran',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',
@@ -29,6 +31,7 @@ export default function membran() {
       name: 'Membran',
       img: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6321/6321792_sd.jpg',
       text: 'Membran',
+      banner: { text: "Premium", icon: 1 },
       details: [
         'Detail 1',
         'Detail 2',

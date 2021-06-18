@@ -34,6 +34,23 @@ body {
   width: 250px;
 }
 
+.banner {
+  position: absolute;
+  color: white;
+  background-color: #1f2833;
+  height: 35px;
+  width: 105px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.banner-icon-container {
+  position: absolute;
+  width: 25%;
+  right: -5px;
+  top: 3px;
+}
+
 @media only screen and (max-width: 315px) {
   #navbar-big-logo {
     display: none;

@@ -26,7 +26,7 @@ export default function Banner({text, icon}) {
   }
 
   return (
-    <div className="banner" style={{ display: "flex", flexDirection: "row" }}>
+    <div className="banner" style={{ display: "flex", flexDirection: "row", color: "#66Fcf1" }}>
       <div style={{ width: "75%" }}>
         {text}
       </div>

@@ -4,9 +4,9 @@ import TopicContent from '../components/TopicContent'
 
 export default function page({ pageTitle, itemList, textList, introText }) {
   return (
-    <div>
+    <div style={{position: "relative", top: "40px"}}>
       <h1 className="m-2" style={{
-        textAlign: "center",
+        textAlign: "left",
         fontFamily: 'Teko, sans-serif',
         fontSize: "4em",
         top: "25px",
@@ -17,9 +17,9 @@ export default function page({ pageTitle, itemList, textList, introText }) {
       <TopicContent data={itemList} />
       <Container fluid className="p-0">
         {textList.map(x => (
-          <div style={{marginBottom: "30px"}}>
+          <div style={{marginBottom: "80px"}}>
             <div>
-              <h2 style={{ textAlign: "center", position: "relative", marginBottom: "20px", fontWeight: "bold", marginTop: "15px" }}>{x.header}</h2>
+              <h2 style={{ textAlign: "left", position: "relative", marginBottom: "20px", marginTop: "15px", "fontFamily": "Teko, sans-serif" }}>{x.header}</h2>
             </div>
             { x.textParagraphs.map(p => <p>{p}</p>)}
           </div>

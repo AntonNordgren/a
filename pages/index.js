@@ -4,33 +4,33 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home() {
 
+  let products = [
+    // "https://ttpremium.eu/wp-content/uploads/2019/01/KB-LVT-SSBRUS-01-pic2.png",
+    "https://www.logitechg.com/content/dam/gaming/en/products/pro-x-keyboard/pro-x-keyboard-gallery-1.png"
+  ]
+
   return (
     <Container>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <object data="/TG_Guiden.svg" type="image/svg+xml" style={{ maxWidth: "100%" }}></object>
-        {/* <object data="yours.svg" type="image/svg+xml"></object> */}
+        <div style={{position: "relative", top: "60px"}}>
+          <object data="/TG_Guiden.svg" type="image/svg+xml" style={{ maxWidth: "65%" }}></object>
+          <h1 style={{"fontFamily": "Teko, sans-serif", "position": "relative", "top": "20px", "fontSize": "3em"}}>REKOMMENDERAR</h1>
+        </div>
+        <Carousel controls={false} interval={1000} indicators={false}>
 
-        <h1>Under Utveckling</h1>
+          {products.map(product => (
+            <Carousel.Item>
+              <img
+                className="d-block w-75 mx-auto"
+                src={product}
+              />
+              {/* <div className="carousel-caption" style={{color: "#1f2833"}}>
+                <h5>asdjaslkdjalskdjlkajdlkjasd</h5>
+                <p>aäösdjlkasjdlkjasldkjalkjdasd</p>
+              </div> */}
+            </Carousel.Item>
+          ))}
 
-        <Carousel controls={false} interval={3000} indicators={false}>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/r/z/rz03-03390200-razer-huntsman-mini-gaming-keyboard.jpg"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://venturebeat.com/wp-content/uploads/2020/05/logitech-2.jpg?w=1200&strip=all"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://images-na.ssl-images-amazon.com/images/I/71ZLaIN981L._AC_SL1500_.jpg"
-            />
-          </Carousel.Item>
         </Carousel>
       </div>
     </Container>
